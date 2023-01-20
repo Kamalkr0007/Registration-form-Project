@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="welcome.css">
+</head>
+<body>
+    <div class="title"><b>Hygieneo Dashboard</b></div>
+    <div class="subtitle"><b>Indoor Air Quality</b></div>
+    <div class="container">
+      <div class="card">
+        <div class=card-left>
+            <p class="left1">PM 2.5</p>
+            <p class="left2"><span>1.0</span>ug/m3</p>
+            <p class="right1">17-01-2023, 06.01PM</p>
+            <img class="img" src="" />
+            <span class="image">&#9989;</span>
+            </div>
+            <div class=card-right>
+           <p class="good">Good</p>
+            </div>
+      </div>
+
+      <div class="card">
+        <div class="card-left">
+        <p class="left1">PM 10</p>
+        <p class="left2"><span>1.5</span>/m3</p>
+        <p class="right1">17-01-2023, 06.01PM</p>
+         <span class="image">&#9989;</span>
+           </div>
+           <div class=card-right>
+             <p class="good">Good</p>
+             </div>
+       </div>
+
+
+      <div class="card">
+      <div class="card-left">
+      <p class="left1">CO2</p>
+      <p class="left2"><span>928.0</span>PPM</p>
+      <p class="right1">17-01-2023, 06.01PM</p>
+       <span class="image">&#9989;</span>
+       </div>
+       <div class=card-right>
+         <p class="good">Good</p>
+         </div>
+        </div>
+
+        <div class="card">
+            <div class="card-left">
+            <p class="left1">Humidity</p>
+            <p class="left2"><span>55.21</span>%</p>
+            <p class="right1">17-01-2023, 06.01PM</p>
+             <span class="image">&#9989;</span>
+             </div>
+             <div class=card-right>
+               <p class="good">Good</p>
+               </div>
+              </div>
+
+              <div class="card">
+                <div class="card-left">
+                <p class="left1">Air Temperature</p>
+                <p class="left2"><span>22.45</span><b><sup>.</sup></b>C</p>
+                <p class="right1">17-01-2023, 06.01PM</p>
+                 <span class="image">&#9989;</span>
+                 </div>
+                 <div class=card-right>
+                   <p class="good">Good</p>
+                   </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-left">
+                    <p class="left1">TVOC</p>
+                    <p class="left2"><span>0.0</span>PPB</p>
+                    <p class="right1">17-01-2023, 06.01PM</p>
+                     <span class="image">&#9989;</span>
+                     </div>
+                     <div class=card-right>
+                       <p class="good">Good</p>
+                       </div>
+                      </div>
+
+
+
+    </div>
+
+    <div class="canvasdiv">
+
+    <div class="canvas">
+        <canvas id="myChart"></canvas>
+      </div>
+      <div class="canvas">
+        <canvas id="lineChart"></canvas>
+      </div>
+      </div>
+
+    <script src="welcome.js"></script>
+    
+    
+</body>
+</html>

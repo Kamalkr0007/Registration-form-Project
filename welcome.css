@@ -1,0 +1,73 @@
+.title{
+    text-align: center;
+    color: rgb(59, 59, 206);
+    font-size: x-large;
+    margin: 33px;
+}
+.subtitle{text-align: left;
+    color: rgb(59, 59, 206);
+    font-size: large;}
+
+span{
+        color: rgb(11, 174, 41);
+        font-size: 45px;
+    
+    }
+
+.good{
+    position: relative;
+    top: -114px;
+    font-size: large;
+
+    }
+.left1{
+    font-size: 20px;
+}
+
+.image{
+    position: relative;
+    top: -105px;
+    /* left: 5px; */
+    right: -371px;
+    
+}
+    .card-right{
+        text-align: right;
+        top: -970px;
+    }
+.right1{
+    position: relative;
+    text-align: right;
+    top: -109px;
+}
+.canvas{
+    width: 50%;
+    
+}
+.canvasdiv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 28%;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    height: 145px;
+    /* flex: 1 0 33.33%; */
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.subtitle{
+   padding: 22px;
+}
+body{
+    background: #F0F3F8;
+}
+
+  

@@ -1,0 +1,43 @@
+form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+  form {
+    width: 90%;
+  }
+}
+
+  #align{
+    background-color: rgb(194, 98, 15);
+    text-align: center;
+    font-size: 49px;
+  }
+  sup{
+    color: red;
+  }
+  body{
+    background-color: peachpuff;
+    font-size: 18px;
+  }
+  #wel{
+    text-align: center;
+    font-size: 53px;
+    margin: 7%;
+    /* background-color: rgb(130, 95, 163); */
+    /* color: brown; */
+  }
